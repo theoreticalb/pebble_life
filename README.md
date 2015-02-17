@@ -1,11 +1,13 @@
 # pebble_life
 An implementation of Conway's Life for the Pebble smart watch.  
 
-# Features:
+## Features:
 
 * Multiple playback speeds.
 * Multiple sizes, all the way down to a grid of 144*152 cells.
 * That's pretty much it.  It is just Life, after all.
+
+## Notes:
 
 Implemented accessors into a character array for the cell values so that every bit could be used.  Boolean arrays in C take up a char per element, so a little fudging is necessary to fit two screen-sized generations in memory at the same time.
 
