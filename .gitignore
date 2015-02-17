@@ -4,3 +4,4 @@ build
 pebble_life/build
 # Don't include publishing information/UUIDs. 
 appinfo.json
+.lock-waf_darwin_build
